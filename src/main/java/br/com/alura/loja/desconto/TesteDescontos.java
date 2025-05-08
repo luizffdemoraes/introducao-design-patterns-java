@@ -1,4 +1,4 @@
-package br.com.alura.loja.orcamento.desconto;
+package br.com.alura.loja.desconto;
 
 import br.com.alura.loja.orcamento.Orcamento;
 
@@ -10,7 +10,7 @@ public class TesteDescontos {
         Orcamento primeiro = new Orcamento(new BigDecimal("200"), 4);
         Orcamento segundo = new Orcamento(new BigDecimal("1000"), 4);
 
-        CalculadoraDeDesconto calculadora = new CalculadoraDeDesconto();
+        CalculadoraDeDescontos calculadora = new CalculadoraDeDescontos();
         System.out.println(calculadora.calcular(primeiro));
         System.out.println(calculadora.calcular(segundo));
     }

@@ -1,6 +1,8 @@
-package br.com.alura.loja.orcamento;
+package br.com.alura.loja;
 
-import br.com.alura.loja.orcamento.imposto.ISS;
+import br.com.alura.loja.imposto.CalculadoraDeImpostos;
+import br.com.alura.loja.imposto.ISS;
+import br.com.alura.loja.orcamento.Orcamento;
 
 import java.math.BigDecimal;
 
